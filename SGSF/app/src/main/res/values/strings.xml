@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SGSF</string>
+    <string name="entrar">Entrar</string>
+    <string name="Servicos">servicos que diponibilizo</string>
+
+
+    <string-array name="tipos_de_servicos">
+
+        <item>15anos</item>
+        <item>formatura</item>
+        <item>casamento</item>
+        <item>batizado</item>
+        <item>15anos</item>
+        <item>formatura</item>
+        <item>casamento</item>
+        <item>batizado</item>
+        <item>15anos</item>
+        <item>formatura</item>
+        <item>casamento</item>
+        <item>batizado</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

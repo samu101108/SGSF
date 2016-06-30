@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TelaInicial">
+    <!--A barra de títulos com 'SGSF' deve sair, como tira ela?-->
+
+    <ImageView
+        android:id="@+id/imageTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+    <!--essa imagem será do logo ou uma imagem qualquer-->
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <!--Aqui vai um Grid para colocar e-mail e senha-->
+        <GridLayout
+            android:id="@+id/gridLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/EmailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:text="E-mail" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:ems="10"
+                android:hint="Digite seu e-mail"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/senhaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:singleLine="true"
+                android:text="Senha" />
+
+            <EditText
+                android:id="@+id/senhaEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:ems="10"
+                android:hint="Digite sua senha"
+                android:inputType="textPassword" />
+
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/entrarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Confirm"
+            android:text="@string/entrar"
+            android:textAllCaps="true" />
+
+
+        <TextView
+            android:id="@+id/CadastroTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:onClick="escolha"
+            android:text="Cadastre-se" />
+
+    </LinearLayout>
+
+
+    <!--<EditText
+        android:id="@+id/emailEditText"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Digite seu e-mail"
+        android:inputType="textEmailAddress"
+        android:paddingTop="8sp" />
+
+
+    <EditText
+        android:id="@+id/senhaEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/emailEditText"
+        android:inputType="textPassword"
+        android:paddingTop="25dp"
+        android:hint="Digite sua Senha"/>
+
+
+    <Button
+        android:id="@+id/Entrarbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senhaEditText"
+        android:layout_centerHorizontal="true"
+        android:onClick="Confirm"
+        android:text="Entrar" />
+
+    <TextView
+        android:id="@+id/CadastramentoEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Entrarbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:onClick="escolha"
+        android:text="Clique aqui para fazer seu cadastro" />
+-->
+</LinearLayout>

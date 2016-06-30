@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_c208aab978a6c5b68f829b3ffb970e68aa3f47ad\classes.dex" />
+    </item>
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_917434fb31697d3e36e583c12d9617009b6ee3d5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\samuel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_191c205c9002f83910a139559dec599b767a45cd\classes.dex" />
+    </item>
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="eab2b47cd7b9a6aee340847f11736e53c04257ef">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ed95dbcabecfa9193a76cd31630f5adb19b48cd\classes.dex" />
+    </item>
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b4e67d1f753639446a2aa9b2f8f031465ef20008">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bb91e78cde308137fd628a1702bf78a7ff80d37d\classes.dex" />
+    </item>
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_8048d764329fd6e87054ac85f3c9c6a707d54ebd\classes.dex" />
+    </item>
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_f3875d4b85c3dc06e2ee77a8ef30ef3c0738b549\classes.dex" />
+    </item>
+    <item
+        jar="S:\Projeto\SGSF\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="S:\Projeto\SGSF\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_390e274548dd28daa8309ccfb7d4c894cc1b84df\classes.dex" />
+    </item>
+
+</items>
